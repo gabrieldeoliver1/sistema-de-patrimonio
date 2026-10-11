@@ -1,43 +1,138 @@
 [
     {
-        "id": "c6cb799a-041c-48eb-8db7-5d25190c4858",
-        "mensagem": "Novo bem 'testeteste' cadastrado por Administrador do Sistema.",
-        "data_criacao": "2025-05-25 16:33:06",
+        "id": "3224abb3-e59c-4c4f-9d00-65d566d3befa",
+        "mensagem": "Bem 'Nobreak 1.500 VA' (Pat: 04-000011) transferido de ASEG para ASTEC.",
+        "data_criacao": "2025-06-16 12:00:00",
+        "lida": false,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "440e7f62-90b1-4abe-b4e0-7bffd3d9a4e4",
+        "mensagem": "Bem 'Projetor Epson PowerLite' (Pat: 04-000004) transferido de ASCOR para DIP.",
+        "data_criacao": "2025-06-10 12:00:00",
+        "lida": false,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "374e6e08-9678-48e9-8aa4-27f25cdb5815",
+        "mensagem": "Bem 'Notebook Dell Latitude 5420' (Pat: 04-000001) transferido de ASTEC para GEEM.",
+        "data_criacao": "2025-06-07 12:00:00",
+        "lida": false,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "03985305-bc95-44b5-95c2-c6413884817e",
+        "mensagem": "Novo bem 'Televisor Samsung 55 polegadas' (Pat: 04-000014) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-06-02 10:36:00",
+        "lida": false,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "d14f96b5-0b72-4dea-aa84-de9a1b5a73d8",
+        "mensagem": "Novo bem 'Notebook Lenovo ThinkPad E14' (Pat: 04-000013) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-31 13:26:00",
+        "lida": false,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "a4c8abe6-6441-469f-8a43-f822129c6b38",
+        "mensagem": "Novo bem 'Scanner de documentos Fujitsu' (Pat: 04-000012) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-29 09:35:00",
+        "lida": false,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "74978d89-9a26-4412-88a4-fbd5443010fa",
+        "mensagem": "Novo bem 'Nobreak 1.500 VA' (Pat: 04-000011) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-27 15:03:00",
         "lida": true,
         "tipo": "info",
         "destinatario_id": null
     },
     {
-        "id": "b97accdc-d0c6-401c-8931-8754a13b0634",
-        "mensagem": "Novo bem 'testeteste' cadastrado por Administrador do Sistema.",
-        "data_criacao": "2025-05-25 16:32:45",
+        "id": "86c24e9f-7751-4b7b-8818-45f0c52b4b65",
+        "mensagem": "Novo bem 'Switch de rede 24 portas' (Pat: 04-000010) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-25 09:36:00",
         "lida": true,
         "tipo": "info",
         "destinatario_id": null
     },
     {
-        "id": "426d5883-c46f-40fc-9aef-80f8eb130882",
-        "mensagem": "Novo bem 'teste' cadastrado por Administrador do Sistema.",
-        "data_criacao": "2025-05-25 16:32:26",
+        "id": "16209f49-fa85-4188-bc63-f4453a4c0a57",
+        "mensagem": "Novo bem 'Ar-condicionado split 12.000 BTUs' (Pat: 04-000009) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-23 10:14:00",
         "lida": true,
         "tipo": "info",
         "destinatario_id": null
     },
     {
-        "id": "811db25a-0d35-411e-9d8b-7518be08b640",
-        "mensagem": "Bem 'tsettsetset' transferido para o setor 'ARSAL ASEG - Assessoria de Recuperação de Crédito' por Administrador do Sistema.",
-        "data_criacao": "2025-05-25 15:26:25",
+        "id": "eddc7e5c-7e12-4d20-823c-b6bbad711f75",
+        "mensagem": "Novo bem 'Armário de aço com 2 portas' (Pat: 04-000008) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-21 15:03:00",
         "lida": true,
         "tipo": "info",
         "destinatario_id": null
     },
     {
-        "id": "c6e8b4d9-2594-4547-9a5a-10ffa68c9a22",
-        "mensagem": "Novo bem 'tsettsetset' cadastrado por Administrador do Sistema.",
-        "data_criacao": "2025-05-25 15:23:20",
+        "id": "f36ea4af-1fd8-4665-b2ed-65c3da761dd8",
+        "mensagem": "Novo bem 'Mesa de escritório em L' (Pat: 04-000007) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-19 12:05:00",
         "lida": true,
         "tipo": "info",
         "destinatario_id": null
     },
-    "Bem 04-000000002 transferido do setor \"ARSAL ASCOR - Assessoria de Comunicação\" para \"ARSAL ASEG - Assessoria de Recuperação de Crédito\" por amado."
+    {
+        "id": "fd7b68d3-2724-4109-ad61-86f9c61e6c9d",
+        "mensagem": "Novo bem 'Cadeira ergonômica' (Pat: 04-000006) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-17 15:26:00",
+        "lida": true,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "1307bc49-92e2-4e0c-b850-7b81393d4439",
+        "mensagem": "Novo bem 'Câmera Canon EOS Rebel' (Pat: 04-000005) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-15 12:02:00",
+        "lida": true,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "411d2738-5fbd-407f-8da0-ed7b0ecd8585",
+        "mensagem": "Novo bem 'Projetor Epson PowerLite' (Pat: 04-000004) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-13 09:58:00",
+        "lida": true,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "67d708cc-b365-4e60-8c0a-4f2051ae9c52",
+        "mensagem": "Novo bem 'Impressora multifuncional HP' (Pat: 04-000003) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-11 10:23:00",
+        "lida": true,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "df853cb0-ea36-4284-83f6-94f98a863a79",
+        "mensagem": "Novo bem 'Monitor LG 24 polegadas' (Pat: 04-000002) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-09 09:04:00",
+        "lida": true,
+        "tipo": "info",
+        "destinatario_id": null
+    },
+    {
+        "id": "d93ec300-5cf3-40ca-968f-3a61b485488b",
+        "mensagem": "Novo bem 'Notebook Dell Latitude 5420' (Pat: 04-000001) cadastrado por Administrador (demonstração).",
+        "data_criacao": "2025-05-07 14:09:00",
+        "lida": true,
+        "tipo": "info",
+        "destinatario_id": null
+    }
 ]

@@ -1,42 +1,142 @@
 [
     {
-        "id": "bd1f280c-839e-496a-b36d-8e866bd7b24c",
-        "nome": "tsettsetset",
-        "descricao": "tsettestsetsetsetset",
+        "id": "3ced8f2e-8ad3-4bcd-9908-2cebb18f0c80",
+        "nome": "Notebook Dell Latitude 5420",
+        "descricao": "Notebook i5, 16 GB RAM, SSD 512 GB",
         "numero_patrimonio": "04-000001",
-        "setor_atual": "b8c9d0e1-f2a3-4567-8901-234567123456",
-        "data_aquisicao": "2025-05-25",
+        "setor_atual": "01b2c3d4-e5f6-7890-1234-567890c45678",
+        "data_aquisicao": "2024-09-17",
         "status": "Ótimo",
         "observacoes": ""
     },
     {
-        "id": "48a8f325-5de9-424a-8a00-e46f44ffe1a4",
-        "nome": "teste",
-        "descricao": "testetestetesteteste",
+        "id": "02f81c94-86b1-401e-b3ea-caaf344f379b",
+        "nome": "Monitor LG 24 polegadas",
+        "descricao": "Monitor Full HD com entrada HDMI",
         "numero_patrimonio": "04-000002",
-        "setor_atual": "a7b8c9d0-e1f2-3456-7890-123456012345",
-        "data_aquisicao": "2025-05-25",
+        "setor_atual": "c9d0e1f2-a3b4-5678-9012-345678234567",
+        "data_aquisicao": "2024-07-09",
         "status": "Bom",
-        "observacoes": "testeteste"
+        "observacoes": ""
     },
     {
-        "id": "6a187ce8-3a04-4371-b479-8d633a4dbae3",
-        "nome": "testeteste",
-        "descricao": "testetesteteste",
+        "id": "39532873-54a9-4283-8457-6ff07e1f4ce1",
+        "nome": "Impressora multifuncional HP",
+        "descricao": "Impressora a laser com scanner",
         "numero_patrimonio": "04-000003",
-        "setor_atual": "a7b8c9d0-e1f2-3456-7890-123456012345",
-        "data_aquisicao": "2025-05-25",
+        "setor_atual": "f0a1b2c3-d4e5-6789-0123-456789b34567",
+        "data_aquisicao": "2024-06-17",
         "status": "Regular",
-        "observacoes": "testeteste"
+        "observacoes": ""
     },
     {
-        "id": "0f507162-d3f2-4c27-9396-8be01ca8a16c",
-        "nome": "testeteste",
-        "descricao": "testetesteteste",
+        "id": "469a8628-d401-4014-9596-94e527925b5c",
+        "nome": "Projetor Epson PowerLite",
+        "descricao": "Projetor 3.300 lúmens para reuniões",
         "numero_patrimonio": "04-000004",
-        "setor_atual": "f2a3b4c5-d6e7-8901-2345-678901567890",
-        "data_aquisicao": "2025-05-25",
+        "setor_atual": "b6c7d8e9-f0a1-2345-6789-012345d90123",
+        "data_aquisicao": "2024-07-28",
+        "status": "Bom",
+        "observacoes": ""
+    },
+    {
+        "id": "924ae9cb-4d39-46ea-a3f4-0eb5f691f036",
+        "nome": "Câmera Canon EOS Rebel",
+        "descricao": "Câmera DSLR para cobertura de eventos",
+        "numero_patrimonio": "04-000005",
+        "setor_atual": "a7b8c9d0-e1f2-3456-7890-123456012345",
+        "data_aquisicao": "2025-03-02",
+        "status": "Ótimo",
+        "observacoes": ""
+    },
+    {
+        "id": "8547305a-1450-4fa9-a552-8a02a2063fa9",
+        "nome": "Cadeira ergonômica",
+        "descricao": "Cadeira giratória com apoio lombar",
+        "numero_patrimonio": "04-000006",
+        "setor_atual": "e7f8a9b0-c1d2-3456-7890-123456a01234",
+        "data_aquisicao": "2025-03-13",
+        "status": "Bom",
+        "observacoes": ""
+    },
+    {
+        "id": "f459db83-1217-4e03-8c4b-6b9bcdad1e98",
+        "nome": "Mesa de escritório em L",
+        "descricao": "Mesa em MDF, 1,50 m",
+        "numero_patrimonio": "04-000007",
+        "setor_atual": "e7f8a9b0-c1d2-3456-7890-123456a01234",
+        "data_aquisicao": "2024-07-11",
         "status": "Regular",
-        "observacoes": "testeteste"
+        "observacoes": ""
+    },
+    {
+        "id": "9befb3c5-361e-43f4-bfd1-506098c9cc3e",
+        "nome": "Armário de aço com 2 portas",
+        "descricao": "Armário para arquivo de processos",
+        "numero_patrimonio": "04-000008",
+        "setor_atual": "89d0e1f2-a3b4-5678-9012-345678e23456",
+        "data_aquisicao": "2024-07-06",
+        "status": "Bom",
+        "observacoes": ""
+    },
+    {
+        "id": "1ec3f6db-79d0-407c-8119-ef97fc843597",
+        "nome": "Ar-condicionado split 12.000 BTUs",
+        "descricao": "Equipamento inverter",
+        "numero_patrimonio": "04-000009",
+        "setor_atual": "b6c7d8e9-f0a1-2345-6789-012345d90123",
+        "data_aquisicao": "2024-06-05",
+        "status": "Ótimo",
+        "observacoes": ""
+    },
+    {
+        "id": "723464b3-f78d-4333-ab25-c5a2e7a2a5f1",
+        "nome": "Switch de rede 24 portas",
+        "descricao": "Switch gerenciável gigabit",
+        "numero_patrimonio": "04-000010",
+        "setor_atual": "c9d0e1f2-a3b4-5678-9012-345678234567",
+        "data_aquisicao": "2024-06-30",
+        "status": "Bom",
+        "observacoes": ""
+    },
+    {
+        "id": "c008f36e-eb47-4295-9dce-f1e4e59bdee4",
+        "nome": "Nobreak 1.500 VA",
+        "descricao": "Nobreak para estações de trabalho",
+        "numero_patrimonio": "04-000011",
+        "setor_atual": "c9d0e1f2-a3b4-5678-9012-345678234567",
+        "data_aquisicao": "2025-01-04",
+        "status": "Regular",
+        "observacoes": ""
+    },
+    {
+        "id": "ee5a21ec-d745-4ba6-9520-8a1b366d3ec3",
+        "nome": "Scanner de documentos Fujitsu",
+        "descricao": "Scanner com alimentador automático",
+        "numero_patrimonio": "04-000012",
+        "setor_atual": "89d0e1f2-a3b4-5678-9012-345678e23456",
+        "data_aquisicao": "2025-02-20",
+        "status": "Ótimo",
+        "observacoes": ""
+    },
+    {
+        "id": "37cd3549-af74-4df1-bd0b-00f6f4f0dc3e",
+        "nome": "Notebook Lenovo ThinkPad E14",
+        "descricao": "Notebook i7, 16 GB RAM",
+        "numero_patrimonio": "04-000013",
+        "setor_atual": "01b2c3d4-e5f6-7890-1234-567890c45678",
+        "data_aquisicao": "2025-02-17",
+        "status": "Ótimo",
+        "observacoes": ""
+    },
+    {
+        "id": "8bd7ec70-bc63-49d3-b304-3ff347d545eb",
+        "nome": "Televisor Samsung 55 polegadas",
+        "descricao": "TV para painel de indicadores",
+        "numero_patrimonio": "04-000014",
+        "setor_atual": "34e5f6a7-b8c9-0123-4567-890123f78901",
+        "data_aquisicao": "2024-11-27",
+        "status": "Bom",
+        "observacoes": ""
     }
 ]

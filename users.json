@@ -1,29 +1,29 @@
 {
     "admin": {
-        "senha": "scrypt:32768:8:1$3oHlxE3NER2lP38g$9a42b6f48c80469b04f9a8c271083533efd123a561d605c7dd00907a930142ef43df5b2e234349af43ff91edb875636b1e66cb6c41a2685c0498b0b43e5987e2",
+        "senha": "scrypt:32768:8:1$sdJOYGMjrNHAiyh8$7a5709900265c6c57732fc37eec4582c96c40ddc97315959b202dbdc5f8eb08ec4ab526fc92d610e01bc1fbc289a227239d5107410cb9f4d20c2f4ecfd478ff4",
         "role": "admin",
-        "nome_completo": "Administrador do Sistema",
+        "nome_completo": "Administrador (demonstração)",
         "email": "",
         "data_cadastro": "2025-05-25 14:22:26"
     },
-    "amado": {
-        "senha": "scrypt:32768:8:1$9XRONoXc7YOaAeHr$825ea0bfa543e253b51cdf03a5aeeb2e015695ecf3afa5afa1acebff32c3a7f0f9278d3d2b86c9d79a4a494df3ba211ea1f332bc854400114b9f524abf1f29c5",
+    "gestor": {
+        "senha": "scrypt:32768:8:1$ie9qgiZjm4Oj1kwk$fddd1fbf2792d6daaafa473a742e00783d2beaeb01c4e849779aa945b3960b42e110aef516294fdcce28a7df749d8eca5a7f38203b4cb9f00aab71687de9f6a5",
         "role": "gestor",
-        "nome_completo": "",
+        "nome_completo": "Gestor (demonstração)",
         "email": "",
-        "setor_id": "a7b8c9d0-e1f2-3456-7890-123456012345",
+        "setor_id": "c9d0e1f2-a3b4-5678-9012-345678234567",
         "data_cadastro": "2025-05-25 15:48:22",
         "setores_ids": [
-            "a7b8c9d0-e1f2-3456-7890-123456012345",
-            "b8c9d0e1-f2a3-4567-8901-234567123456"
+            "c9d0e1f2-a3b4-5678-9012-345678234567",
+            "a7b8c9d0-e1f2-3456-7890-123456012345"
         ]
     },
-    "alanzinho": {
-        "senha": "scrypt:32768:8:1$5HqLTZddtirFXu5i$e6a6f6a9896ec21f5b19c892de1a164ef0fd33b300496c5b6120e941aa0785373ffb270ec6cba320f7a00212a82776030febf3c1f0b89be0a16a526732ca8070",
+    "usuario": {
+        "senha": "scrypt:32768:8:1$RBMVS6VHDIAqaDbo$ab94550e8ac2d46fe5658cf32dbde1843feb883323b854f4b34c326da1a77ce7b16937b09f18a99187f87c58e2e26dc8ba1ef7b6c6b6b0d55b42fce091ab4adc",
         "role": "user",
-        "nome_completo": "",
+        "nome_completo": "Usuário (demonstração)",
         "email": "",
-        "setor_id": "a7b8c9d0-e1f2-3456-7890-123456012345",
+        "setor_id": "c9d0e1f2-a3b4-5678-9012-345678234567",
         "data_cadastro": "2025-05-25 15:48:54"
     }
 }
