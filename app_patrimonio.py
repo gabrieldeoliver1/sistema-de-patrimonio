@@ -225,10 +225,9 @@ def dashboard():
         total_setores_geral_calculado = len([s for s in setores_lista_completa if isinstance(s, dict)]); notificacoes_ativas_admin = []
         if dm: notificacoes_todas = dm.get_notificacoes(); notificacoes_ativas_admin = sorted( [n for n in notificacoes_todas if isinstance(n, dict) and not n.get('lida')], key=lambda x: x.get('data_criacao', ''), reverse=True )
         else: app.logger.error("data_manager (dm) não está disponível para buscar notificações.")
-        app.logger.info(f"DEBUG: ordered_daily_activity_data_final para admin: {ordered_daily_activity_data_final}") # Linha de depuração adicionada
         return render_template('dashboard_admin.html', total_bens=total_bens_filtrados, total_setores_geral=total_setores_geral_calculado, notificacoes_dashboard=notificacoes_ativas_admin, chart_data_setor=chart_data_setor_final if chart_data_setor_final else {}, chart_condicao_data=chart_data_status_final if chart_data_status_final else {}, daily_activity_data=ordered_daily_activity_data_final if ordered_daily_activity_data_final else {}, ultimas_alteracoes_setor=ultimas_alteracoes_para_template_final, title_suffix=title_suffix_display, nome_setor_selecionado_display=nome_setor_display, current_selected_ids_for_template=current_selected_ids_for_template, setores_para_filtro_admin=setores_lista_completa)
     elif user_role == 'gestor' or user_role == 'user':
-        return render_template('dashboard_user.html', total_bens=total_bens_filtrados, chart_data_status=chart_data_status_final if chart_data_status_final else {}, daily_activity_data=ordered_daily_activity_data_final if ordered_daily_activity_data_final else {}, bens_que_entraram=bens_que_entraram, bens_que_sairam=bens_que_sairam, ultimas_alteracoes_setor=ultimas_alteracoes_para_template_final, title_suffix=title_suffix_display, nome_setor_selecionado_display=nome_setor_display, current_selected_ids_for_template=current_selected_ids_for_template, setores_para_filtro_gestor=setores_para_filtro_gestor_template)
+        return render_template('dashboard_user.html', total_bens=total_bens_filtrados, chart_data_status=chart_data_status_final if chart_data_status_final else {}, chart_condicao_data=chart_data_status_final if chart_data_status_final else {}, daily_activity_data=ordered_daily_activity_data_final if ordered_daily_activity_data_final else {}, bens_que_entraram=bens_que_entraram, bens_que_sairam=bens_que_sairam, ultimas_alteracoes_setor=ultimas_alteracoes_para_template_final, title_suffix=title_suffix_display, nome_setor_selecionado_display=nome_setor_display, current_selected_ids_for_template=current_selected_ids_for_template, setores_para_filtro_gestor=setores_para_filtro_gestor_template)
     else: app.logger.error(f"Perfil de usuário desconhecido '{user_role}' encontrado na rota do dashboard."); flash("Perfil de usuário desconhecido. Contacte o suporte.", "danger"); return redirect(url_for('logout'))
 
 class PDF(FPDF):
@@ -236,7 +235,7 @@ class PDF(FPDF):
     def header(self):
         font_name = 'Arial'; font_path_local = "DejaVuSans.ttf"
         if os.path.exists(font_path_local):
-            try: self.add_font('DejaVu', '', font_path_local); font_name = 'DejaVu'; app.logger.info(f"Fonte '{font_path_local}' carregada para PDF.")
+            try: self.add_font('DejaVu', '', font_path_local); self.add_font('DejaVu', 'B', 'DejaVuSans-Bold.ttf'); self.add_font('DejaVu', 'I', 'DejaVuSans-Oblique.ttf'); font_name = 'DejaVu'; app.logger.info(f"Fonte '{font_path_local}' carregada para PDF.")
             except Exception as e_font_load: app.logger.error(f"Erro ao carregar fonte TTF '{font_path_local}' para PDF: {e_font_load}. Usando Arial.")
         else: app.logger.warning(f"Arquivo de fonte '{font_path_local}' não encontrado. Usando Arial para PDF. Caracteres PT-BR podem ter problemas.")
         current_font_size = 14 if font_name == 'DejaVu' else 12; self.set_font(font_name, 'B', current_font_size)
@@ -639,4 +638,4 @@ if __name__ == '__main__':
     if hasattr(dm, 'initialize_data_files'): dm.initialize_data_files()
     elif hasattr(dm, 'initialize_database'): dm.initialize_database()
     app.logger.info(f"Aplicação Patrimônio iniciando em modo {'DEBUG' if app.debug else 'PRODUÇÃO'}...")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=os.environ.get('FLASK_DEBUG') == '1', host=os.environ.get('FLASK_HOST', '127.0.0.1'), port=int(os.environ.get('FLASK_PORT', '5000')))
